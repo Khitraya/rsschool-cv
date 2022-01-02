@@ -60,6 +60,9 @@ main {
   margin-left: 50px;
   margin-bottom: 20px;
 }
+.moreText li {
+  padding-bottom: 15px;
+}
 .basic {
   width: 65%;
   background-color: #ffffff;
@@ -124,3 +127,4 @@ main {
 .title a:hover {
   background-color: #f2c100;
 }
+
