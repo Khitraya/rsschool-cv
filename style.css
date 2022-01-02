@@ -27,7 +27,7 @@ header {
 }
 
 .elMemubar a {
-  padding: 12.5px 9px;
+  padding: 13px 9px;
   transition: 0.2s;
   color: black;
 }
@@ -88,7 +88,8 @@ main {
 
 .text {
   list-style-type: none;
-  padding-left: 50px;
+  padding: 0 50px;
+
 }
 
 .footer {
@@ -97,8 +98,8 @@ main {
   align-items: center;
   background-color: rgb(87, 82, 82);
   color: white;
-  padding-top: 12.5px;
-  padding-bottom: 12.5px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 .footer a {
   color: white;
@@ -106,4 +107,20 @@ main {
 
 .logotype {
   width: 80px;
+}
+
+.codeExample {
+  padding-left: 50px;
+}
+
+.title {
+  padding-left: 41px;
+  margin-bottom: 20px;
+}
+.title a {
+  padding: 9px 13px;
+  color: black;
+}
+.title a:hover {
+  background-color: #f2c100;
 }
