@@ -1,3 +1,126 @@
-div {
-  color: pink;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: black;
+  padding: 50px;
+  background-color: rgb(224, 210, 169);
+}
+
+header {
+  line-height: 45px;
+  background-color: #e6e6e6;
+}
+.menubar {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.elMemubar a:hover {
+  background-color: #f2c100;
+}
+
+.elMemubar a {
+  padding: 13px 9px;
+  transition: 0.2s;
+  color: black;
+}
+
+.photo {
+  width: 100%;
+}
+
+main {
+  line-height: 25px;
+  display: flex;
+
+}
+
+.more {
+  width: 35%;
+  background-color: rgb(58, 57, 57);
+  color: white;
+}
+
+.moreNameSection {
+  padding: 5px 0 5px 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: gray;
+}
+
+.moreText {
+  list-style-type: none;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.basic {
+  width: 65%;
+  background-color: #ffffff;
+}
+
+.nameSection {
+  padding: 5px 0 5px 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(228, 224, 224);
+}
+.name {
+  font-size: 48px;
+  padding-top: 150px;
+  padding-left: 50px;
+  margin-bottom: 0px;
+  line-height: 60px;
+}
+
+.post {
+  font-weight: 100;
+  margin-top: 40px;
+  margin-bottom: 150px;
+  padding-left: 50px;
+}
+
+.text {
+  list-style-type: none;
+  padding: 0 50px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(87, 82, 82);
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.footer a {
+  color: white;
+}
+
+.logotype {
+  width: 80px;
+}
+
+.codeExample {
+  padding-left: 50px;
+}
+
+.title {
+  padding-left: 41px;
+  margin-bottom: 20px;
+}
+.title a {
+  padding: 9px 13px;
+  color: black;
+}
+.title a:hover {
+  background-color: #f2c100;
 }
